@@ -19,6 +19,10 @@ dnf5 install -y tmux btop
 # Disable COPRs so they don't end up enabled on the final image:
 # dnf5 -y copr disable ublue-os/staging
 
+# add asusctl
+dnf5 -y copr enable lukenukem/asus-linux
+dnf5 -y install asusctl
+
 #### Example for enabling a System Unit File
 
 systemctl enable podman.socket
