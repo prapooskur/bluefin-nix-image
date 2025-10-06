@@ -21,7 +21,7 @@ dnf5 install -y tmux btop
 
 # add asusctl
 dnf5 -y copr enable lukenukem/asus-linux
-dnf5 -y install asusctl
+dnf5 -y install asusctl asusctl-rog-gui
 
 #### Example for enabling a System Unit File
 
