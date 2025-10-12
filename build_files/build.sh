@@ -10,7 +10,7 @@ set -ouex pipefail
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/39/x86_64/repoview/index.html&protocol=https&redirect=1
 
 # add preferred packages to image
-dnf5 install -y nmtui
+dnf5 install -y nmtui btop
 
 # Use a COPR Example:
 #
