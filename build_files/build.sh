@@ -24,8 +24,8 @@ dnf5 -y copr enable lukenukem/asus-linux
 dnf5 -y install asusctl asusctl-rog-gui
 
 # add cosmic (this may be a horrible idea)
-#dnf5 -y copr enable ryanabx/cosmic-epoch
-#dnf5 -y install cosmic-desktop
+dnf5 -y copr enable ryanabx/cosmic-epoch
+dnf5 -y install cosmic-desktop
 
 
 # nix setup (may  not actually do anything on silverblue 41 base)
